@@ -12,19 +12,17 @@ public class Question2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		try {
-		int x, y;
-		System.out.println("Enter x");
-		x = sc.nextInt();
-		System.out.println("Enter y");
-		y = sc.nextInt();
-		
-			if ((x%y)!= 0) {
-			System.out.println(x%y);	
+			int x, y;
+			System.out.println("Enter x");
+			x = sc.nextInt();
+			System.out.println("Enter y");
+			y = sc.nextInt();
+
+			if ((x % y) == 0) {
+				System.out.println(x / y);
 			}
-			
 
 		} catch (Exception e) {
-			// TODO: handle exception
 			System.out.println("Invalid entry");
 			e.printStackTrace();
 		}
