@@ -26,7 +26,8 @@ public class Question1 {
 		for (int i = 0; i < phoneList.size(); i++) {
 			if (phoneList.containsKey(name)) {
 				System.out.println(phoneList.get(name));
-			} else {
+				break;
+			} else if(!phoneList.containsKey(name)){
 				System.out.println("Person is not found");
 				break;
 			}
