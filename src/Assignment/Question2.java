@@ -25,6 +25,8 @@ public class Question2 {
 		} catch (Exception e) {
 			System.out.println("Invalid entry");
 			e.printStackTrace();
+		} finally {
+			sc.close();
 		}
 
 	}

@@ -15,11 +15,13 @@ public class Question1 {
 		Scanner sc = new Scanner(System.in);
 		HashMap<String, Integer> phoneList = new HashMap<String, Integer>();
 
-		phoneList.put("Sharukh", 223344);
+		phoneList.put("Ranbir", 223344);
 		phoneList.put("Amitabh", 112233);
 		phoneList.put("Akshay", 334455);
 		phoneList.put("Paresh", 445566);
 		phoneList.put("Ajay", 556677);
+		phoneList.put("JamesB", 007);
+		phoneList.put("Police", 911);
 
 		System.out.println("Enter person's name");
 		String name = sc.next();
